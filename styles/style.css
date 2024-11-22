@@ -28,4 +28,61 @@
 /****************/
 
 /* jouw code */
+@font-face {
+	font-family: "Comfortaa", sans-serif;
+	src: url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
+}
 
+img {
+	display: flex;
+	justify-content: center;
+	max-width: 60vw;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: "Comfortaa", sans-serif;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+h2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: "Comfortaa", sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 4em;
+}
+
+p {
+	font-family: "Comfortaa", sans-serif;
+	color: white;
+	font-weight: bolder;
+}
+
+
+.meer-drankjes {
+	display: flex;	
+}
+.meer-drankjes img {
+	max-width: 50vw;
+}
+
+.background1 {
+	background-color: #f5d981;
+}
+
+.background2 {
+	background-color: #ebb8cc;
+}
+
+.background3 {
+	background-color: #295640;
+}
+
+.background4 {
+	background-color: #a03271;
+}
