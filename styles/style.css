@@ -28,10 +28,21 @@
 /****************/
 
 /* jouw code */
+
 @font-face {
-	font-family: "Comfortaa", sans-serif;
-	src: url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
+	font-family: "innocent-Bold";
+	src: url("/fonts/innocent-Bold.woff2") format("opentype");
+	font-weight: normal;
+	font-style: normal;
 }
+
+@font-face {
+	font-family: "innocent-Light";
+	src: url("/fonts/innocent-Light.woff2") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+  
 
 img {
 	display: flex;
@@ -51,7 +62,7 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	font-family: "Comfortaa", sans-serif;
+	font-family: "innocent-Bold", sans-serif;
 	color: white;
 	font-weight: bolder;
 	font-size: 4em;
@@ -86,3 +97,6 @@ p {
 .background4 {
 	background-color: #a03271;
 }
+
+section:nth-of-type(2) 
+section:nth-of-type(1)
