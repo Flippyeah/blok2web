@@ -491,6 +491,14 @@ footer p {
 }
 
 
+/* menu */
+header nav {
+    transform: translateY(-110%);
+}
+
+nav.toonMenu {
+	transform: translateY(0);
+}
 
 
 /*

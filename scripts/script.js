@@ -1,15 +1,18 @@
 // JavaScript Document
 console.log("hi");
 
-var openButton = document.querySelector("header > button");
+const openButton = document.querySelector("header button:first-of-type");
+
+console.log(openButton)
 
 openButton.onclick = openMenu;
 
 function openMenu() {  
 
   var deNav = document.querySelector("nav");
+//   console.log(deNav)
 
-  deNav.classList.add("toonMenu");
+  deNav.classList.toggle("toonMenu");
 }
 
 
